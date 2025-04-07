@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
                 ->subject('Verify Your Email Address')
                 ->line('Click the button below to verify your email address.')
                 ->action('Verify Email', $url)
-                ->salutation(new HtmlString('Best regards,<br>Haziyah'));
+                ->salutation(new HtmlString('Best regards,<br>Musyrif'));
         });
     }
 }
